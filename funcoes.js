@@ -2,19 +2,24 @@
 //console.log(x)
 //x = "oi";
 
+
+//DECLARAÇÃO DE FUNÇÃO
+
 // 1) declara a função
-                    //string
+                    //2 -> valor de soma()
 function imprimeTexto(texto){
     console.log(texto)
 }
 
-// executa a funcao (1 ou +vezes)
-//imprimeTexto("oi")
+// 2) executa a funcao (1 ou +vezes)
 imprimeTexto(soma())
+//imprimeTexto("outro texto");
 
 //três formas de escrever funções
 
 function soma (){
+    //outros Códigos
+    //vários console.log()
     return 2 + 2;   
 }
 //console.log(soma())
