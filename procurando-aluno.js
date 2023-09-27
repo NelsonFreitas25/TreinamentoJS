@@ -6,7 +6,10 @@ const listaDeAlunosEMedias = [alunos, medias];
 // ...
 
 function exibeNomeENota(aluno) {
+  
+  
   if (listaDeAlunosEMedias[0].includes(aluno)) {
+    
     const [alunos, medias] = listaDeAlunosEMedias;
 
     const indice = alunos.indexOf(aluno);
